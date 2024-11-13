@@ -3,6 +3,7 @@ session_start();
 
 if (!isset($_SESSION['ok'])) {
     header("location: login.php");
+    exit();
 }
 //=> iki koyok KEY AND VALUE
 $hargamenu = [
