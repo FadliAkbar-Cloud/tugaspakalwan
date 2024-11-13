@@ -3,6 +3,7 @@ session_start();
 
 if (!isset($_SESSION['ok'])) {
     header("location: login.php");
+    exit();
 }
 ?>
 <!DOCTYPE html>
